@@ -1,0 +1,41 @@
+.advantages {
+    min-height: 470px;
+    padding: 70px 0 78px;
+    display: block;
+    margin: 0 auto;
+    background: url(../img/bg/bg_advant.png) center center/cover no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 65px;
+    }
+    &__item {
+        width: 239px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 38px;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+    }
+    &__descr {
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 25px;
+        a {
+            color: #ff0000;
+            text-decoration: underline;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+}

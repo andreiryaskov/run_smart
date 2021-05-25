@@ -1,0 +1,32 @@
+.title {
+    color: #0d0d0d;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    &_left {
+        color: #fff;
+        font-size: 36px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 30px;
+        &_left {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .title {
+        font-size: 26px;
+        &_left {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+}

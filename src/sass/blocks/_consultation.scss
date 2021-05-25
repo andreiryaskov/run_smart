@@ -1,0 +1,16 @@
+.consultation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 100px 0 92px;
+    background: url(../img/bg/bg2.png) center center/cover no-repeat;
+    
+    &__subtitle {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        margin-top: 80px;
+    }
+
+}
